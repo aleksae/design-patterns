@@ -1,4 +1,4 @@
-# Design patterns implementatin
+# Design patterns implementation
 Implementing design patterns through examples from "Head First Design Patterns", as well as **custom example of Air Traffic Control training simulator**
 
 ![Air Traffic Control Simulator](simulator-kontrole-leta/simulator_kontrole_letenja.png)
