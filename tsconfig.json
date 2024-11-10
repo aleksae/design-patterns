@@ -1,0 +1,11 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "strict": true
+    }
+  },
+  "compilerOptions": {
+    "module": "esnext"
+  }
+}
