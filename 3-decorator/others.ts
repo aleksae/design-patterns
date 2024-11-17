@@ -1,5 +1,5 @@
 export abstract class Beverage {
-    description: string;
+    description: string = "Unknown Beverage";
     abstract cost(): number;
     getDescription(): string {
         return this.description;

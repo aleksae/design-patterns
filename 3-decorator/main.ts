@@ -1,14 +1,14 @@
 import { Mocha, Whip } from "./decorators";
 import { Beverage, DarkRoast, Espresso } from "./others";
 
-let beverage:Beverage = new Espresso();
-console.log(beverage.getDescription() + " $" + beverage.cost());
+let espresso:Beverage = new Espresso();
+console.log(espresso.getDescription() + " $" + espresso.cost());
 
-let beverage2:Beverage = new DarkRoast();
-beverage2 = new Mocha(beverage2);
-beverage2 = new Mocha(beverage2);
-beverage2 = new Whip(beverage2);
 
-console.log(beverage2.getDescription() + " $" + beverage2.cost());
+let darkRoast:Beverage = new DarkRoast();
+darkRoast = new Mocha(darkRoast);
+darkRoast = new Mocha(darkRoast);
+darkRoast = new Whip(darkRoast);
 
+console.log(darkRoast.getDescription() + " $" + darkRoast.cost());
 

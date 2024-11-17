@@ -1,8 +1,9 @@
 import { Beverage } from "./others";
 
 export abstract class CondimentsDecorator extends Beverage {
-    beverage: Beverage;
+    beverage!: Beverage;
     abstract getDescription(): string;
+
 }
 
 export class Mocha extends CondimentsDecorator {
